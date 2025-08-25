@@ -6,6 +6,7 @@ import { ChoiceComponent } from './choice/choice.component';
 import { TestComponent } from './test/test.component';
 import { ResultComponent } from './result/result.component';
 import { CorrectComponent } from './correct/correct.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { CorrectComponent } from './correct/correct.component';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     TestRoutingModule
   ]
 })
